@@ -59,7 +59,7 @@ export default function Register() {
 					if (res.status === 200) {
 						setIsLoading(false)
 						setAuthState(res.data)
-						history.push('/home')
+						history.push('/feed')
 					}
 					toast.success('Welcome to texthouse!')
 				})

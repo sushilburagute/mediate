@@ -1,15 +1,12 @@
 import { Link } from 'react-router-dom'
+import logo from '../../../public/logo_large.png'
 
 export default function AuthContainer({ title, children }) {
 	return (
 		<div className="flex flex-col justify-center py-12 sm:px-6 lg:px-8">
 			<div className="sm:mx-auto sm:w-full sm:max-w-md">
 				<Link to="/">
-					<img
-						className="w-auto h-12 mx-auto"
-						src="../assets/icons/logo.svg"
-						alt="Workflow"
-					/>
+					<img className="w-auto h-12 mx-auto" src={logo} alt="Mediate Logo" />
 				</Link>
 			</div>
 

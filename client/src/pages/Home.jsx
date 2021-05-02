@@ -2,6 +2,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { RiMenuFill, RiCloseFill } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
+import logo from '../../public/logo_large.png'
 
 export default function Home() {
 	return (
@@ -30,7 +31,8 @@ export default function Home() {
 											<a href="#">
 												<img
 													className="w-auto h-8 sm:h-10"
-													src="https://tailwindui.com/img/logos/workflow-mark-cyan-600.svg"
+													src={logo}
+													alt="logo"
 												/>
 											</a>
 											<div className="flex items-center -mr-2 md:hidden">
@@ -72,11 +74,7 @@ export default function Home() {
 									<div className="overflow-hidden bg-white rounded-lg shadow-md ring-1 ring-black ring-opacity-5">
 										<div className="flex items-center justify-between px-5 pt-4">
 											<div>
-												<img
-													className="w-auto h-8"
-													src="https://tailwindui.com/img/logos/workflow-mark-cyan-600.svg"
-													alt=""
-												/>
+												<img className="w-auto h-8" src={logo} alt="" />
 											</div>
 											<div className="-mr-2">
 												<Popover.Button className="inline-flex items-center justify-center p-2 text-gray-400 bg-white rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-500">
@@ -100,8 +98,12 @@ export default function Home() {
 							<main className="px-4 mx-auto mt-10 max-w-7xl sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
 								<div className="sm:text-center lg:text-left">
 									<h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+										<span className="block text-cyan-400 xl:inline">
+											Mediate:
+										</span>
+										<br />
 										<span className="block xl:inline">Your place to</span>{' '}
-										<span className="block text-cyan-600 xl:inline">text.</span>
+										<span className="block text-cyan-400 xl:inline">text.</span>
 									</h1>
 									<p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
 										An invite-only place with plenty of room to chat about the

@@ -47,7 +47,7 @@ export default function Login() {
 				setIsLoading(false)
 				toast.success('Logged in!')
 				setAuthState(res.data)
-				history.push('/home')
+				history.push('/feed')
 			})
 			.catch((error) => {
 				console.log(error.response.status)

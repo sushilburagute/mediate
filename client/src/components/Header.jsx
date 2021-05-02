@@ -2,7 +2,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { RiMenuFill, RiCloseFill } from 'react-icons/ri'
 import { Link } from 'react-router-dom'
 import { Fragment } from 'react'
-import Logo from './ui/Logo'
+import logo from './../../public/logo_large.png'
 
 const userNavigation = [
 	{ name: 'Your Profile', to: '#' },
@@ -24,7 +24,7 @@ export default function Header() {
 							{/* Logo section */}
 							<div className="flex items-center px-2 lg:px-0 xl:w-64">
 								<div className="flex-shrink-0">
-									<Logo />
+									<img src={logo} alt="Mediate Logo" className="w-10 h-auto" />
 								</div>
 							</div>
 
