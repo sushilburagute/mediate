@@ -24,5 +24,5 @@ Mediate | The Texting Clubhouse
 
 ## Tech Stack
 
-Frontend: React 17, TailwindCSS, Headlessui, Formik
-Backend: Node, Express, Mongoose, JWT, Socket IO
+- Frontend: React 17, TailwindCSS, Headlessui, Formik
+- Backend: Node, Express, Mongoose, JWT, Socket IO
