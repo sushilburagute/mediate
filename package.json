@@ -1,0 +1,13 @@
+{
+    "name": "express-auth-boilerplate",
+    "version": "1.0.0",
+    "description": "Ready to integrate authentication in your apps. Written in Express, Node, JWT and Mongoose",
+    "main": "server.js",
+    "scripts": {
+        "dev": "cd server && yarn dev",
+        "build": "cd server yarn prod",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Omkar Kulkarni (omkarak45@gmail.com)",
+    "license": "MIT"
+}
