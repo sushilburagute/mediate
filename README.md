@@ -20,3 +20,9 @@ Mediate | The Texting Clubhouse
 1. Omkar Kulkarni
 1. Sushil Buragute
 1. Melvin Fernando
+---
+
+## Tech Stack
+
+Frontend: React 17, TailwindCSS, Headlessui, Formik
+Backend: Node, Express, Mongoose, JWT, Socket IO
